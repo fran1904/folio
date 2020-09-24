@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: athene;
+    src: url(../fonts/Athene.otf);
+}
+
+/* CSS palette vars */
+:root {
+    --section1-bg-col: #efe8d7;
+    --section1-col: #002a5a;
+    --section2-bg-col: #F4C4C4;
+    --section2-col: #282b29;
+    --section3-bg-col: #DEB873;
+    --section3-col: #7d2222;
+    --section4-bg-col: #D2D2D2;
+    --section4-col: #1d8883;
+
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+/* resets */
+body{
+    margin: 0;
+}
+h1, h2, p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+figure{
+    margin: 0;
+}
+
+/* Global stuff... */
+.container{
+    margin: 0 20%;
+}
+h1{
+ font-size: 3rem;
+}
+h1, h2{
+    font-family: Athene, serif;
+}
+h2{
+    font-size: 2rem;
+}
+h1 > span{
+    display: block;
+}
+
+
+/* #section1 & header styles */
+header{
+    height:31px;
+    width: 60%;
+    position: fixed;
+    top: 0;
+    font-size: .8rem;
+    font-weight: 300;
+    border-bottom: 1px solid #002a5a4c;
+    background: transparent !important;
+}
+header div{
+    position: absolute;
+}
+header div.left{
+    top: 5px;
+    left: 11%;
+}
+header div.right{
+    top: 5px;
+    right: 11%;
+}
+#section1, header{
+    background: var(--section1-bg-col);
+    color: var(--section1-col);
+}
+#section1 h1{
+    padding-top: 56px;
+    margin-bottom: 30px;
+}
+.content-wrap{
+    text-align: center;
+    padding: 0 11% 50px;
+}
+#section1 h1 > span{
+    border-bottom: 1px solid #002a5a4c;
+}
+#section1 h1 > span:last-child{
+    padding-top: 4px;
+}
+#section1 img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+#section1 p{
+    text-align: left;
+    margin-left: ;
+}
+figure{
+    width: 50%;
+    margin: 0 auto;
+
+}
+#section1 figcaption > span{
+    font-family: Athene, serif;
+}
+#section1 figcaption{
+    text-align: left;
+    font-size: .9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
