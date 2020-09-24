@@ -1,227 +1,251 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
 
 @font-face {
-    font-family: athene;
-    src: url(../fonts/Athene.otf);
+  font-family: athene;
+  src: url(../fonts/Athene.otf);
 }
 
 /* CSS palette vars */
 :root {
-    --section1-bg-col: #efe8d7;
-    --section1-col: #002a5a;
-    --section2-bg-col: #F4C4C4;
-    --section2-col: #282b29;
-    --section3-bg-col: #DEB873;
-    --section3-col: #7d2222;
-    --section4-bg-col: #D2D2D2;
-    --section4-col: #1d8883;
+  --section1-bg-col: #efe8d7;
+  --section1-col: #002a5a;
+  --section2-bg-col: #f4c4c4;
+  --section2-col: #282b29;
+  --section3-bg-col: #deb873;
+  --section3-col: #7d2222;
+  --section4-bg-col: #d2d2d2;
+  --section4-col: #1d8883;
 
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
 }
 
 /* resets */
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
-h1, h2, p{
-    margin: 0;
+h1,
+h2,
+p {
+  margin: 0;
 }
-ul{
-    margin: 0;
-    padding: 0;
+ul {
+  margin: 0;
+  padding: 0;
 }
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-figure{
-    margin: 0;
+figure {
+  margin: 0;
 }
 
 /* Global stuff... */
-.container{
-    width: 666px;
-    margin: 0 auto;
+.container {
+  width: 666px;
+  margin: 0 auto;
 }
-h1{
- font-size: 3rem;
+h1 {
+  font-size: 3rem;
 }
-h1, h2{
-    font-family: Athene, serif;
+h1,
+h2 {
+  font-family: Athene, serif;
 }
-h2{
-    font-size: 1.75rem;
+h2 {
+  font-size: 1.75rem;
 }
-h1 > span, h2 > span{
-    display: block;
+h1 > span,
+h2 > span {
+  display: block;
 }
-.numeration{
-    padding: 35px 0;
-    font-size: 0.5rem;
+.numeration {
+  padding: 35px 0;
+  font-size: 0.5rem;
 }
-p{
-    font-size: .6rem;
-    font-weight: 300;
-    line-height: 2.0;
+p {
+  font-size: 0.6rem;
+  font-weight: 300;
+  line-height: 2;
 }
-
 
 /* #section1 & header styles */
-header{
-    height:31px;
-    width: 666px;
-    position: fixed;
-    top: 0;
-    font-size: .8rem;
-    font-weight: 300;
-    border-bottom: 1px solid #002a5a4c;
-    background: transparent !important;
+header {
+  height: 31px;
+  width: 666px;
+  position: fixed;
+  top: 0;
+  font-size: 0.8rem;
+  font-weight: 300;
+  border-bottom: 1px solid #002a5a4c;
+  background: transparent !important;
 }
-header div{
-    position: absolute;
+header div {
+  position: absolute;
 }
-header div.left{
-    top: 5px;
-    left: 11%;
+header div.left {
+  top: 5px;
+  left: 11%;
 }
-header div.right{
-    top: 5px;
-    right: 11%;
+header div.right {
+  top: 5px;
+  right: 11%;
 }
-#section1, header{
-    background: var(--section1-bg-col);
-    color: var(--section1-col);
+#section1,
+header {
+  background: var(--section1-bg-col);
+  color: var(--section1-col);
 }
-#section1 h1{
-    padding-top: 56px;
-    margin-bottom: 30px;
+#section1 h1 {
+  padding-top: 56px;
+  margin-bottom: 30px;
 }
-.content-wrap{
-    text-align: center;
-    padding: 0 11% 50px;
+.content-wrap {
+  text-align: center;
+  padding: 0 11% 50px;
 }
-#section1 h1 > span{
-    border-bottom: 1px solid #002a5a4c;
+#section1 h1 > span {
+  border-bottom: 1px solid #002a5a4c;
 }
-#section1 h1 > span:last-child{
-    padding-top: 4px;
+#section1 h1 > span:last-child {
+  padding-top: 4px;
 }
-#section1 img{
-    width: 100%;
-    height: auto;
-    margin-bottom: 16px;
+#section1 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 16px;
 }
-#section1 p{
-    text-align: left;
+#section1 p {
+  text-align: left;
 }
-figure{
-    width: 50%;
-    margin: 0 auto;
+figure {
+  width: 50%;
+  margin: 0 auto;
 }
-#section1 figcaption > span{
-    font-family: Athene, serif;
+#section1 figcaption > span {
+  font-family: Athene, serif;
 }
-#section1 figcaption{
-    text-align: left;
-    font-size: .9rem;
+#section1 figcaption {
+  text-align: left;
+  font-size: 0.9rem;
 }
-
-
-
 
 /* #section2 styles */
 
-#section2{
-    padding: 0 11% 60px;
-    background: var(--section2-bg-col);
-    color: var(--section2-col)
+#section2 {
+  padding: 0 11% 60px;
+  background: var(--section2-bg-col);
+  color: var(--section2-col);
 }
-#section2 h1, #section4 h1{
-    margin-left: -14%;
+#section2 h1,
+#section4 h1 {
+  margin-left: -14%;
 }
-.table-wrapper{
-    margin-left: 50%;
+.table-wrapper {
+  margin-left: 40%;
 }
-#section2 div:last-child{
-height: 85px;
-background:url("../img/img2.svg")  right bottom / 15% no-repeat scroll;
+#section2 div:last-child {
+  height: 130px;
+  background: url("../img/img2.svg") right bottom / 15% no-repeat scroll;
 }
-#section2 p{
-    padding-bottom: 25px;
+#section2 p {
+  padding-bottom: 25px;
 }
 
-
+/* table */
+table {
+  text-transform: none;
+  width: 100%;
+  height: 200px;
+  border-collapse: collapse;
+  padding: 5px;
+  border-top: none;
+}
+caption {
+  text-align: right;
+  border-bottom: 1px solid black;
+}
+td {
+  border-bottom: 1px solid;
+  text-align: left;
+  padding: 20px 0 5% 20px;
+  border-bottom: 1px solid black;
+}
+tr td:first-child {
+  font-size: 0.5rem;
+}
+tr td:last-child {
+  font-size: 0.7rem;
+  text-align: right;
+}
 
 /* #section3 styles */
 .pos_rel {
-    position: relative;
-    height: 75px;
+  position: relative;
+  height: 75px;
 }
-#section3 h1{
-    text-align: right;
-    position: absolute;
-    right: -75px;
+#section3 h1 {
+  text-align: right;
+  position: absolute;
+  right: -75px;
 }
-#section3{
-    padding: 0 11% 60px;
-    background: var(--section3-bg-col);
-    color: var(--section3-col)
+#section3 {
+  padding: 0 11% 60px;
+  background: var(--section3-bg-col);
+  color: var(--section3-col);
 }
-#section3 .numeration{
-    text-align: right;
+#section3 .numeration {
+  text-align: right;
 }
-
-#section3 p{
-    padding: 50px 0;
-    margin-right: 50%;
+#section3 p {
+  padding: 50px 0;
+  margin-right: 50%;
 }
-#section3 .featured > *{
-    height: 200px;
+#section3 .featured > * {
+  height: 200px;
 }
 
 .first-img {
-background: url('../img/img3.jpg') right top / contain no-repeat scroll;
+  background: url("../img/img3.jpg") right top / contain no-repeat scroll;
 }
 .second-img {
-background: url(../img/img4.jpg) left top / contain no-repeat scroll;
-text-align: right;
+  background: url(../img/img4.jpg) left top / contain no-repeat scroll;
+  text-align: right;
 }
 .third-img {
-background: url(../img/img5.jpg) right top / contain no-repeat scroll;
+  background: url(../img/img5.jpg) right top / contain no-repeat scroll;
 }
 .fourth-img {
-background: url(../img/img6.jpg) left top / contain no-repeat scroll;
-text-align: right;
+  background: url(../img/img6.jpg) left top / contain no-repeat scroll;
+  text-align: right;
 }
-.featured div{
-    margin-bottom: 65px;
+.featured div {
+  margin-bottom: 65px;
 }
-
-
 
 /* #section4 styles */
 
-#section4{
-    padding: 0 11% 60px;
-    background: var(--section4-bg-col);
-    color: var(--section4-col)
+#section4 {
+  padding: 0 11% 60px;
+  background: var(--section4-bg-col);
+  color: var(--section4-col);
 }
 #section4 p {
-    margin: 20px 34%;
+  margin: 20px 30%;
+  font-size: 0.8rem;
 }
-#section4 a{
-    color: var(--section4-col);
-    font-size: 0.75rem;
-    text-transform: capitalize;
+#section4 a {
+  color: var(--section4-col);
+  font-size: 0.75rem;
+  text-transform: capitalize;
 }
-
 li {
-    margin-bottom: 4px;
-    text-align: right;
+  margin-bottom: 4px;
+  text-align: right;
 }
-li:hover{
-    text-decoration: underline;
+li:hover {
+  text-decoration: underline;
 }
