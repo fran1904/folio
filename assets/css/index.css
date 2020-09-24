@@ -57,6 +57,15 @@ h2{
 h1 > span{
     display: block;
 }
+.numeration{
+    padding: 35px 0;
+    font-size: 0.5rem;
+}
+p{
+    font-size: .3rem;
+    font-weight: 300;
+    line-height: 2.0;
+}
 
 
 /* #section1 & header styles */
@@ -111,7 +120,6 @@ header div.right{
 figure{
     width: 50%;
     margin: 0 auto;
-
 }
 #section1 figcaption > span{
     font-family: Athene, serif;
@@ -122,6 +130,28 @@ figure{
 }
 
 
+
+
+/* #section2 styles */
+
+#section2{
+    padding: 0 11% 60px;
+    background: var(--section2-bg-col);
+    color: var(--section2-col)
+}
+#section2 h1{
+    margin-left: -14%;
+}
+.table-wrapper{
+    margin-left: 50%;
+}
+#section2 div:last-child{
+height: 85px;
+background:url("../img/img2.svg")  right bottom / 15% no-repeat scroll;
+}
+#section2 p{
+    padding-bottom: 25px;
+}
 
 
 
